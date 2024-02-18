@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>simple</title>
+    <style>
+        body {
+            background: url('https://static8.depositphotos.com/1003234/903/i/450/depositphotos_9033679-stock-photo-beautiful-pastel-floral-border-beautiful.jpg') no-repeat center center fixed; 
+            background-size: cover; 
+            background-color: #f2f2f2; 
+            color: #333; 
+            font-family: Arial, sans-serif; 
+            margin: 0; /* Убираем отступы у body */
+            padding: 0; /* Убираем отступы у body */
+        }
+
+        header, section, footer, nav {
+            padding: 20px; /* Добавляем отступы для лучшего визуального восприятия */
+        }
+
+        section img {
+            max-width: 100%; /* Адаптивная ширина изображения */
+            height: auto;
+            border-radius: 10px; 
+        }
+
+        .thumbnail {
+            width: 70px; /* Начальный размер миниатюры */
+            height: auto;
+            transition: transform 0.3s ease-in-out; /* Анимация при увеличении */
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.2); /* Увеличиваем размер при наведении */
+        }
+
+        footer {
+            text-align: center; /* Центрируем текст в футере */
+        }
+
+        nav ul {
+            list-style: none; /* Убираем стилизацию маркеров у списка навигации */
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around; /* Равномерное распределение элементов */
+        }
+
+        nav a {
+            text-decoration: none; /* Убираем подчеркивание у ссылок */
+            color: #333;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            /* Медиа-запрос для устройств с шириной до 768px */
+            header, section, footer, nav {
+                padding: 10px; /* Уменьшаем отступы для лучшего отображения на маленьких экранах */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Ваш контент здесь -->
+
+    <header>
+        <center><h1>ALLOFF People</h1><center>
+    </header>
+    
+    <section>
+        <h2>Zhunis Nurzhan</h2>
+        <img src="https://sun9-20.userapi.com/impg/I6YLsdJgJNlmxfWxmkXL0rJZlqUu8A-WnceXng/x2ELxwKAXIE.jpg?size=960x1280&quality=95&sign=006534b7cc4f561f5a4a9247738d8589&type=album" alt="Zhunis Nurzhan Photo">
+    </section>
+    <style>
+        section img {
+            max-width: 500px;
+            height: 250px;
+            border-radius: 10px; 
+        }
+    </style>
+
+    <a href="https://www.instagram.com/zhanabaev53764?utm_source=qr&igsh=MTg3bjdia2RlNzBteg==" target="_blank">
+        <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png" alt="Миниатюра">
+    </a>
+
+    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png" target="_blank">
+        <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Telegram_Messenger.png" alt="Миниатюра">
+    </a>
+
+    <footer>
+        <p>+7(708)-854-9925</p>
+    </footer>
+
+    <nav>
+        <ul>
+            <li><a href="https://alibekov.kz/alloff1">Главная</a></li>
+            <li><a href="https://alibekov.kz/stores">Где нас найти?</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
